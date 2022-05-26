@@ -1,0 +1,11 @@
+
+.photo{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.theDiv{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 0 !important;
+}

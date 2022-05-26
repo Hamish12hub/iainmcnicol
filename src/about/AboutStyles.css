@@ -1,0 +1,202 @@
+
+.boxOne{
+  margin-top: 0;
+  padding: 0;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.boxTwo{
+  margin-top: 0;
+  padding: 0;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.boxThree{
+  margin-top: 0;
+  padding: 0;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.boxFour{
+  margin-top: 0;
+  padding: 0;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.thisContainer{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0;
+}
+
+
+
+.boxOnePhoto{
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+}
+.boxOneText{
+    width: 600px;
+    height: 600px;
+    /* border: 2px solid black; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right:  1rem;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.boxTwoText{
+  width: 600px;
+  height: 600px;
+  /* border: 2px solid black; */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right:  1rem;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+.boxThreeText{
+  width: 600px;
+  height: 600px;
+  /* border: 2px solid black; */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right:  1rem;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+.boxFourText{
+  width: 600px;
+  height: 600px;
+  /* border: 2px solid black; */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right:  1rem;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+.boxTwoPhoto{
+  width: 600px;
+  height: 600px;
+  background-color: aqua;
+}
+.boxTwoText{
+  width: 600px;
+  height: 600px;
+  /* border: 2px solid black; */
+  background-color: white;
+}
+.boxThreePhoto{
+  width: 600px;
+  height: 600px;
+  background-color: aqua;
+}
+.boxThreeText{
+  width: 600px;
+  height: 600px;
+  /* border: 2px solid black; */
+  background-color: white;
+}
+.boxFourPhoto{
+  width: 600px;
+  height: 600px;
+  background-color: aqua;
+}
+.boxFourText{
+  width: 600px;
+  height: 600px;
+  /* border: 2px solid black; */
+  background-color: white;
+}
+@media Screen and (max-width: 600px){
+.boxOnePhoto{
+    width: 100%;
+}
+.boxOneText{
+  width: 100%;
+}
+.boxTwoPhoto{
+  width: 100%;
+}
+.boxTwoText{
+  width: 100%;
+}
+.boxThreePhoto{
+  width: 100%;
+}
+.boxThreeText{
+  width: 100%;
+}
+.boxFourPhoto{
+  width: 100%;
+}
+.boxFourText{
+  width: 100%;
+}
+}
+
+
+@media Screen and (max-width: 1250px){
+  .boxOne{
+    flex-direction: column-reverse;
+    height: 1200px;
+    align-items: center;
+  }
+  .boxTwo{
+    flex-direction: column;
+    height: 1200px;
+    align-items: center;
+  }
+  .boxThree{
+    flex-direction: column-reverse;
+    height: 1200px;
+    align-items: center;
+  }
+  .boxFour{
+    flex-direction: column;
+    height: 1200px;
+    align-items: center;
+  }
+}
+.photoOne{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.photoTwo{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.photoThree{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.photoFour{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
